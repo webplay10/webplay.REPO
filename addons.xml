@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.WEBPLAY"
        name="[COLOR white][B]WEB[/B][/COLOR] [COLOR red][B]PLAY[/B][/COLOR]"
        version="1.0"
@@ -16,38 +15,24 @@
     <import addon="plugin.video.youtube" optional="true" />
 	<import addon="plugin.video.SportsDevil" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-
-
+  
+  	
   <extension point="xbmc.addon.metadata">
-    <summary> O desenvolvedor desse Addon nÃ£o Ã© afiliado com KodiXMBC Fundation e
-nÃ£o se responsabiliza pelo conteÃºdo encontrado aqui nem o mau uso do mesmo.
-Nosso app funciona como um agregador de links e apenas organizamos os mesmos,
-bem como as sinopses, tÃ­tulos e outros! </summary>
+    <summary> O desenvolvedor desse Addon não é afiliado com KodiXMBC Fundation e 
+não se responsabiliza pelo conteúdo encontrado aqui nem o mau uso do mesmo. 
+Nosso app funciona como um agregador de links e apenas organizamos os mesmos, 
+bem como as sinopses, títulos e outros! </summary>
     <description>
-        "Tentamos levar os melhores ConteÃºdos gratuitamente para toda a sua familia!"
-
+        "Tentamos levar os melhores Conteúdos gratuitamente para toda a sua familia!"
+             
     </description>
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="webplay.REPO" name="WEB PLAY REPO" version="1.0.1" provider-name="by Adelvan">
-    <extension point="xbmc.addon.repository" name="PrimePlay.py">
-        <info compressed="false">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>WEB PLAY</summary>
-        <description>Filmes, Series e Kids</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-</addons>
