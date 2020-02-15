@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="webplay.REPO" name="Webplay repository" version="1.0.1" provider-name="by Adelvan">
+<addon id="webplay.REPO" name="[COLOR white][B]WEB[/B][/COLOR] [COLOR red][B]PLAY[/B][/COLOR] Repository" version="1.0.1" provider-name="by Adelvan">
     <extension point="xbmc.addon.repository" name="PrimePlay.py">
         <info compressed="false">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml.md5</checksum>
