@@ -65,7 +65,6 @@ bem como as sinopses, tÃ­tulos e outros!</summary>
         <platform>all</platform>
     </extension>
 </addon>
-</addons>
 
 <addon id="plugin.video.gdrive" version="8.866" name="gdrive" provider-name="ddurdle">
     <requires>
@@ -80,3 +79,4 @@ bem como as sinopses, tÃ­tulos e outros!</summary>
         <platform>all</platform>
     </extension>
 </addon>
+</addons>
