@@ -78,55 +78,10 @@ def SKindex():
     xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
-def SKindex2():
-    addon_log("SKindex")
-    getData(lista,'')
-    msg2 = "https://raw.githubusercontent.com/webplay10/WEBPLAY/master/Alarme"				
-    msg = msg2 
-    line1 = urllib2.urlopen(msg).read()
-    time = 15000 #in miliseconds
-    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
-    xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-def SKindex3():
-    addon_log("SKindex")
-    getData(tube,'')
-    msg2 = "https://raw.githubusercontent.com/webplay10/WEBPLAY/master/Alarme"				
-    msg = msg2 
-    line1 = urllib2.urlopen(msg).read()
-    time = 15000 #in miliseconds
-    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
-    xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-def SKindex4():
-    addon_log("SKindex")
-    getData(mag,'')
-    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
-    msg = msg2 
-    line1 = urllib2.urlopen(msg).read()
-    time = 15000 #in miliseconds
-    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
-    xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-def SKindex5():
-    addon_log("SKindex")
-    getData(playlistv,'')
-    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
-    msg = msg2 
-    line1 = urllib2.urlopen(msg).read()
-    time = 15000 #in miliseconds
-    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
-    xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
 def SKindex6():
     addon_log("SKindex")
     getData(vaddon,'')
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-
-def addon_log(string):
-    if debug == 'true':
-        xbmc.log("[addon.GHOST-%s]: %s" %(addon_version, string))
 
 
 
