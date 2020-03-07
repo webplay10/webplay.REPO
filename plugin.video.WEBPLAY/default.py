@@ -67,12 +67,6 @@ if os.path.exists(source_file)==True:
 else: SOURCES = []
 
 
-def addon_log(string):
-    if debug == 'true':
-        xbmc.log("[addon.GHOST-%s]: %s" %(addon_version, string))
-
-
-
 def SKindex():
     addon_log("SKindex")
     getData(off,'')
@@ -128,6 +122,12 @@ def SKindex6():
     addon_log("SKindex")
     getData(vaddon,'')
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+
+def addon_log(string):
+    if debug == 'true':
+        xbmc.log("[addon.GHOST-%s]: %s" %(addon_version, string))
+
 
 
 def makeRequest(url, headers=None):
