@@ -72,6 +72,76 @@ def addon_log(string):
         xbmc.log("[addon.GHOST-%s]: %s" %(addon_version, string))
 
 
+def menu_oculto():
+    addDir('[COLOR white][B]DOAÇÕES PARA ADDON [/COLOR][/B]','100',100,icon,FANART,'','','','')
+    addDir('[COLOR white][B]CREDITOS PARA ADDON [/COLOR][/B]','101',101,icon,FANART,'','','','')
+
+def SKindex():
+    addon_log("SKindex")
+    getData(off,'')
+    msg2 = "https://raw.githubusercontent.com/webplay10/WEBPLAY/master/Alarme"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 5000 #in miliseconds
+    #addDir('[COLOR white][B]DESENHOS 24 HORAS [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','241',241,icon,FANART,'','','','') 
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+def SKindex2():
+    addon_log("SKindex")
+    getData(lista,'')
+    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 15000 #in miliseconds
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+def SKindex3():
+    addon_log("SKindex")
+    getData(tube,'')
+    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 15000 #in miliseconds
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+def SKindex4():
+    addon_log("SKindex")
+    getData(mag,'')
+    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 15000 #in miliseconds
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+def SKindex5():
+    addon_log("SKindex")
+    getData(playlistv,'')
+    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 15000 #in miliseconds
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+def SKindex6():
+    addon_log("SKindex")
+    getData(vaddon,'')
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+
+def virtual_menu():
+     addDir('[COLOR white][B]Adicionar Virtual Addon [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','502',502,icon2,FANART,'','','','')
+     addDir('[COLOR white][B]Visualizar Meus Virtual Addons [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','503',503,icon2,FANART,'','','','')
+     addDir('[COLOR white][B]Adicionar Virtual via Link [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','504',504,icon2,FANART,'','','','')
+
+
+
+
+
 def makeRequest(url, headers=None):
         try:
             if headers is None:
