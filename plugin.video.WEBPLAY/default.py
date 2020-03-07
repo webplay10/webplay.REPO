@@ -72,6 +72,27 @@ def addon_log(string):
         xbmc.log("[addon.GHOST-%s]: %s" %(addon_version, string))
 
 
+def menu_oculto():
+    addDir('[COLOR white][B]DOAÇÕES PARA ADDON [/COLOR][/B]','100',100,icon,FANART,'','','','')
+    addDir('[COLOR white][B]CREDITOS PARA ADDON [/COLOR][/B]','101',101,icon,FANART,'','','','')
+
+def SKindex():
+    addon_log("SKindex")
+    getData(off,'')
+    msg2 = "https://raw.githubusercontent.com/webplay10/WEBPLAY/master/Alarme"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 5000 #in miliseconds
+    #addDir('[COLOR white][B]DESENHOS 24 HORAS [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','241',241,icon,FANART,'','','','') 
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+
+
+
+
+
+
 def makeRequest(url, headers=None):
         try:
             if headers is None:
