@@ -67,22 +67,9 @@ if os.path.exists(source_file)==True:
 else: SOURCES = []
 
 
-def SKindex():
-    addon_log("SKindex")
-    getData(off,'')
-    msg2 = "https://raw.githubusercontent.com/webplay10/WEBPLAY/master/Alarme"				
-    msg = msg2 
-    line1 = urllib2.urlopen(msg).read()
-    time = 5000 #in miliseconds
-    #addDir('[COLOR white][B]DESENHOS 24 HORAS [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','241',241,icon,FANART,'','','','') 
-    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
-    xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-def SKindex6():
-    addon_log("SKindex")
-    getData(vaddon,'')
-    xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
+def addon_log(string):
+    if debug == 'true':
+        xbmc.log("[addon.GHOST-%s]: %s" %(addon_version, string))
 
 
 def makeRequest(url, headers=None):
