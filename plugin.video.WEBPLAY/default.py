@@ -72,9 +72,6 @@ def addon_log(string):
         xbmc.log("[addon.GHOST-%s]: %s" %(addon_version, string))
 
 
-def menu_oculto():
-    addDir('[COLOR white][B]DOAÇÕES PARA ADDON [/COLOR][/B]','100',100,icon,FANART,'','','','')
-    addDir('[COLOR white][B]CREDITOS PARA ADDON [/COLOR][/B]','101',101,icon,FANART,'','','','')
 
 def SKindex():
     addon_log("SKindex")
@@ -131,15 +128,6 @@ def SKindex6():
     addon_log("SKindex")
     getData(vaddon,'')
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-
-def virtual_menu():
-     addDir('[COLOR white][B]Adicionar Virtual Addon [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','502',502,icon2,FANART,'','','','')
-     addDir('[COLOR white][B]Visualizar Meus Virtual Addons [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','503',503,icon2,FANART,'','','','')
-     addDir('[COLOR white][B]Adicionar Virtual via Link [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','504',504,icon2,FANART,'','','','')
-
-
-
 
 
 def makeRequest(url, headers=None):
