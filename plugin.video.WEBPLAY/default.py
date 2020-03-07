@@ -87,7 +87,56 @@ def SKindex():
     xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
+def SKindex2():
+    addon_log("SKindex")
+    getData(lista,'')
+    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 15000 #in miliseconds
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
+def SKindex3():
+    addon_log("SKindex")
+    getData(tube,'')
+    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 15000 #in miliseconds
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+def SKindex4():
+    addon_log("SKindex")
+    getData(mag,'')
+    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 15000 #in miliseconds
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+def SKindex5():
+    addon_log("SKindex")
+    getData(playlistv,'')
+    msg2 = "https://raw.githubusercontent.com/kodishmediacenter/store/master/avisokbr.xml"				
+    msg = msg2 
+    line1 = urllib2.urlopen(msg).read()
+    time = 15000 #in miliseconds
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+def SKindex6():
+    addon_log("SKindex")
+    getData(vaddon,'')
+    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
+
+def virtual_menu():
+     addDir('[COLOR white][B]Adicionar Virtual Addon [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','502',502,icon2,FANART,'','','','')
+     addDir('[COLOR white][B]Visualizar Meus Virtual Addons [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','503',503,icon2,FANART,'','','','')
+     addDir('[COLOR white][B]Adicionar Virtual via Link [/COLOR][/B][COLOR green][B]KRATOS [/COLOR][COLOR yellow]KODI BR[/B][/COLOR]','504',504,icon2,FANART,'','','','')
 
 
 
