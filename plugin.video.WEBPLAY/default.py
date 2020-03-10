@@ -486,6 +486,20 @@ def parse_m3u(data):
         addLink(stream_url, channel_name,thumbnail,'','','','','',None,'',total)
 
 
+base = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3dlYnBsYXkxMC9XRUJQTEFZL21hc3Rlci9DYXRlZ29yaWFz"
+tam = len(base)
+
+
+
+if base[0:4] == "aHR0":
+    MainBase = base64.b64decode(base)
+    off =  MainBase
+    xbmc.log(off)
+else:
+    tp  = os.path.join(xbmc.translatePath("special://home/addons/plugin.video.WEBPLAY/resources/scripts/open.mp3").decode("utf-8"))
+    xbmc.Player().play(tp)
+
+
 def menu_oculto():
     addDir('[COLOR white][B]DOAÇÕES PARA ADDON [/COLOR][/B]','100',100,icon,FANART,'','','','')
     addDir('[COLOR white][B]CREDITOS PARA ADDON [/COLOR][/B]','101',101,icon,FANART,'','','','')
