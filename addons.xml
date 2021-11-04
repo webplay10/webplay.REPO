@@ -100,7 +100,7 @@
 </addons>
 
 
-<addon id="plugin.video.WEBPLAY" name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY MATRIX[/COLOR][/B]" version="1.0.0" provider-name="[COLOR white] by [/COLOR] [COLOR red][B]ADELVAN[/B][/COLOR]"> 
+<addon id="plugin.video.WEBPLAY" name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY[/COLOR][/B]" version="1.0.0" provider-name="[COLOR white] by [/COLOR] [COLOR red][B]ADELVAN[/B][/COLOR]"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
