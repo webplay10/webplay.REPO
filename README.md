@@ -1,4 +1,4 @@
-# <a href="webplay.REPO">DOWNLOADDO REPOSITÓRIO</a>
+# <a href="webplay.REPO.zip">DOWNLOADDO REPOSITÓRIO</a>
 
 Instruções para a adição no gestor:
 
