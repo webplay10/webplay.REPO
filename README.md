@@ -11,7 +11,7 @@ Instruções para a adição no gestor:
     <li>Ir para "Addons"</li>
     <li>Em Addons, instalar de um ficheiro zip. Quando perguntar pela localização, selecionar "webplay.REPO", e instalar <a href="webplay.REPO.zip">webplay.REPO.zip</a>.</li>
     -
-    <li>http://webplay.repo/</li>
+    <li>https://tinyurl.com/Webplay-REPO</li>
     
 </ul>
 
