@@ -1,6 +1,6 @@
 # <a href="webplay.REPO.zip">DOWNLOADDO REPOSITÓRIO</a>
 
-Instruções para a adição no gestor:
+[COLOR blue]Instruções para a adição no gestor:[/COLOR]
 
 
 <p align="left">
