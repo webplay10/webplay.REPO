@@ -13,7 +13,7 @@ Instruções para a adição no gestor:
     
     <ahref="repository.WEBPLAY-MATRIX.zip">reprepository.webplay-matrix.zip</a>
     -
-    <li>https://tinyurl.com/Webplay-REPO</li>.</k>
+    <li>https://tinyurl.com/Webplay-REPO</li>.</li>
     
 </ul>
 
