@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="webplay.REPO-MATRIX" name="[COLOR white]WEB REPO[/COLOR][B][COLOR red]PLAY MATRIX[/COLOR][/B]" version="2.0-Matrix" provider-name="Webplay">
+    <extension point="xbmc.addon.repository" name="webPlay-REPO-MATRIX">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/webplay10/webplay-REPO-MATRIX/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/webplay10/webplay-REPO-MATRIX/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/webplay10/webplay-REPO-MATRIX/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>EQUIPE WEBPLAY</summary>
+        <description>FILMES, SÉRIES E KIDS</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
