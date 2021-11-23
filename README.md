@@ -10,8 +10,6 @@ Instruções para a adição no gestor:
     <li>O endereço para a fonte é <code>https://tinyurl.com/Webplay-REPO</code> (Dar o nome de "webplay.REPO").</li>
     <li>Ir para "Addons"</li>
     <li>Em Addons, instalar de um ficheiro zip. Quando perguntar pela localização, selecionar "webplay.REPO", e instalar <a href="webplay.REPO.zip">webplay.REPO.zip</a>.</li>
-    
-    <ahref="repository.WEBPLAY-MATRIX.zip">reprepository.webplay-matrix.zip</af>.</li>
     -
     <li>https://tinyurl.com/Webplay-REPO</li>
     
