@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="webplay.REPO" name="[COLOR white][B]WEB[/B][/COLOR] [COLOR red][B]PLAY[/B][/COLOR] Repository" version="1.0.1" provider-name="by Adelvan">
-    <extension point="xbmc.addon.repository" name="PrimePlay.py">
-        <info compressed="false">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/repo</datadir>
+<addon id="webplay.REPO" name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY REPO[/COLOR][/B]" version="1.0.1" provider-name="[COLOR white] by [/COLOR] [COLOR red][B]ADELVAN[/B][/COLOR]">
+    <extension point="xbmc.addon.repository" name="webPlay.REPO">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/repo</datadir>
+        </dir>
     </extension>
-	
-	 <extension point="xbmc.addon.metadata">
+    <extension point="xbmc.addon.metadata">
         <summary>[COLOR white]WEB[/COLOR][B][COLOR red]PLAY[/COLOR][/B]</summary>
         <description>COLOR red]l[/COLOR] FILMES [COLOR red]l[/COLOR] SERIES [COLOR red]l[/COLOR] KIDS [COLOR red]l[/COLOR] ANIMES [COLOR red]l[/COLOR] LANCAMENTOS [COLOR red]l[/COLOR] HD [COLOR red]l[/COLOR] FHD [COLOR red]l[/COLOR]
 [COLOR red]l[/COLOR] O autor nao hospeda nem possui nenhum conteudo encontrado neste addon. O autor nao e responsavel pelo uso e pelo conteudo encontrado neste addon [COLOR red]l[/COLOR]
@@ -33,6 +34,3 @@
         </assets>
     </extension>
 </addon>
-
-</addon>
-
