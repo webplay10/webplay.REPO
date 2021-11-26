@@ -1,2 +1,2 @@
-V1.0
-Initial Release
+Versão 1.0.0
+Inicio do projeto

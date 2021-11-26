@@ -15,8 +15,7 @@ Instruções para a adição no gestor:
     
 </ul>
 
-                                      
-                                       
+   
 
 </p>
 
