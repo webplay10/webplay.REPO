@@ -1,0 +1,19 @@
+2020-04-18 23:54:02: == Sync Started by User Command
+2020-04-18 23:54:21: Copiar Sobre 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/addon.xml' -> 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/addon.xml' (3.126)
+2020-04-18 23:54:23: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/channels_example.xml' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/channels_example.xml' (3.069)
+2020-04-18 23:54:25: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/checkbad.py' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/checkbad.py' (2.962)
+2020-04-18 23:54:27: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/checkbad.pyo' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/checkbad.pyo' (4.054)
+2020-04-18 23:54:29: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/cloudflare.pyo' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/cloudflare.pyo' (3.156)
+2020-04-18 23:54:30: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/core.py' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/core.py' (134)
+2020-04-18 23:54:33: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/genesisresolvers.py' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/genesisresolvers.py' (66.374)
+2020-04-18 23:54:35: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/items_example.xml' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/items_example.xml' (1.796)
+2020-04-18 23:54:37: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/pyaes.pyo' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaes.pyo' (13.983)
+2020-04-18 23:54:39: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/pyaesnew/__init__.pyo' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaesnew/__init__.pyo' (723)
+2020-04-18 23:54:41: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/pyaesnew/aes.pyo' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaesnew/aes.pyo' (48.943)
+2020-04-18 23:54:44: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/pyaesnew/blockfeeder.pyo' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaesnew/blockfeeder.pyo' (7.856)
+2020-04-18 23:54:46: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/pyaesnew/util.pyo' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaesnew/util.pyo' (1.879)
+2020-04-18 23:54:47: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/source_file' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/source_file' (127)
+2020-04-18 23:54:49: Copiar Novo 'gdrive://www.googleapis.com/Kodi/plugin.video.WEBPLAY/sucuri_cookie.py' -> 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/sucuri_cookie.py' (2.463)
+2020-04-18 23:54:56: ===== Sincronia Completada. Tempo: 00:00:55, Velocidade: 16.70 KB/s =====, Itens Sincronizados OK: 15, Erros: 0
+2020-04-18 23:55:17: 
+2020-04-18 23:55:18: Cannot Browse while job is running, waiting to run, or in Unattanded mode

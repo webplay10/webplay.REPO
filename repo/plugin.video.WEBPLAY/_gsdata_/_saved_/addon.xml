@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.WEBPLAY"
+       name="[B][COLOR white]WEB[/COLOR][COLOR red]PLAY[/COLOR][/B]"
+       version="1.0"
+       provider-name="[COLOR white] by [B][/COLOR] [COLOR red][B]ADELVAN[/B][/COLOR]">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR red][B] Sobre: [B][/COLOR]</summary>
+   
+	<description lang="en">[COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] KIDS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANCAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] O autor nao hospeda nem possui nenhum conteudo encontrado neste addon. O autor nao e responsavel pelo uso e pelo conteudo encontrado neste addon [COLOR firebrick]l[/COLOR]
+
+[COLOR firebrick]l[/COLOR][B][COLOR white]WEB[/COLOR][COLOR red]PLAY [/B] [/COLOR][COLOR firebrick]l[/COLOR] - O MELHOR DO CINEMA NO SEU KODI - 100% FHD [COLOR firebrick]l[/COLOR]</description>
+    <disclaimer lang="en">O autor nao e de forma alguma afiliado a Kodi, a Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.</disclaimer>
+	<website></website>
+    <email></email>
+	<news>[COLOR firebrick]l[/COLOR] Atualizacao v1.0 [COLOR firebrick]l[/COLOR]
+
+[COLOR firebrick]l[/COLOR] Adicionado Menu de Suporte [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] Em desenvovimento [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] Só Conteudos em FHD [COLOR firebrick]l[/COLOR]
+
+[B][COLOR firebrick]l[/COLOR][COLOR white]WEB[/COLOR][COLOR red]PLAY[/COLOR][COLOR firebrick]l[/COLOR][/B]</news>
+    <platform>all</platform>
+   <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>

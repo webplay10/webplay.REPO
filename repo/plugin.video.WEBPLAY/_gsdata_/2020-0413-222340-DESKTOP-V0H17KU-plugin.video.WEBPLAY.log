@@ -1,0 +1,75 @@
+2020-04-13 22:24:09: Done.
+2020-04-13 22:24:16: Done.
+2020-04-13 22:24:18: Done.
+2020-04-13 22:24:37: == Sync Started by User Command
+2020-04-13 22:24:41: Criar Pasta 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/Images'
+2020-04-13 22:24:43: Criar Pasta 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/pyaesnew'
+2020-04-13 22:24:44: Criar Pasta 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/resources'
+2020-04-13 22:24:54: Criar Pasta 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/resources/screenshots'
+2020-04-13 22:24:59: Criar Pasta 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/resources/scripts'
+2020-04-13 22:25:04: Criar Pasta 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket'
+2020-04-13 22:25:11: Criar Pasta 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/__pycache__'
+2020-04-13 22:25:14: Criar Pasta 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/tests'
+2020-04-13 22:25:16: Criar Pasta 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/tests/data'
+2020-04-13 22:25:27: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/_DMsearch.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/_DMsearch.py' (4.286)
+2020-04-13 22:25:34: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/_ytplist.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/_ytplist.py' (4.161)
+2020-04-13 22:26:05: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/AADecoder.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/AADecoder.py' (9.322)
+2020-04-13 22:26:10: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/addon.xml' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/addon.xml' (3.275)
+2020-04-13 22:26:13: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/changelog.txt' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/changelog.txt' (20)
+2020-04-13 22:26:16: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/cloudflare.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/cloudflare.py' (2.884)
+2020-04-13 22:26:19: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/CustomPlayer.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/CustomPlayer.py' (999)
+2020-04-13 22:26:31: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/default.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/default.py' (130.604)
+2020-04-13 22:30:07: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/fanart.jpg' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/fanart.jpg' (1.103.402)
+2020-04-13 22:30:16: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/generator.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/generator.py' (63.656)
+2020-04-13 22:30:39: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/generator.pyo' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/generator.pyo' (88.010)
+2020-04-13 22:31:53: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/icon.png' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/icon.png' (436.125)
+2020-04-13 22:32:10: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/Images/background.png' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/Images/background.png' (382.781)
+2020-04-13 22:32:15: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/Images/trans_checked.png' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/Images/trans_checked.png' (2.589)
+2020-04-13 22:32:25: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/Images/trans_unchecked1.png' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/Images/trans_unchecked1.png' (280)
+2020-04-13 22:32:48: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/jscrypto.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/jscrypto.py' (4.339)
+2020-04-13 22:32:59: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/keepalive.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/keepalive.py' (20.502)
+2020-04-13 22:33:05: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/LICENSE.txt' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/LICENSE.txt' (15.220)
+2020-04-13 22:33:17: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/myaddonmenu.xml' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/myaddonmenu.xml' (466)
+2020-04-13 22:33:24: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/oneplay.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/oneplay.py' (12.852)
+2020-04-13 22:33:33: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/ordereddict.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/ordereddict.py' (4.221)
+2020-04-13 22:33:39: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pkcs7.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/pkcs7.py' (1.998)
+2020-04-13 22:33:54: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/playtvfr.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/playtvfr.py' (9.027)
+2020-04-13 22:34:03: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaes.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/pyaes.py' (17.162)
+2020-04-13 22:34:08: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaesnew/__init__.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/pyaesnew/__init__.py' (2.087)
+2020-04-13 22:34:23: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaesnew/aes.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/pyaesnew/aes.py' (60.310)
+2020-04-13 22:34:55: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaesnew/blockfeeder.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/pyaesnew/blockfeeder.py' (8.119)
+2020-04-13 22:35:01: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/pyaesnew/util.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/pyaesnew/util.py' (2.050)
+2020-04-13 22:35:29: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/resources/favorite.png' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/resources/favorite.png' (64.509)
+2020-04-13 22:36:01: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/resources/screenshots/1.jpg' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/resources/screenshots/1.jpg' (436.125)
+2020-04-13 22:36:53: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/resources/screenshots/2.jpg' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/resources/screenshots/2.jpg' (242.683)
+2020-04-13 22:42:21: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/resources/screenshots/3.jpg' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/resources/screenshots/3.jpg' (2.529.857)
+2020-04-13 22:42:33: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/resources/scripts/open.mp3' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/resources/scripts/open.mp3' (153.286)
+2020-04-13 22:42:37: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/resources/settings.xml' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/resources/settings.xml' (4.539)
+2020-04-13 22:42:42: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/RijndaelManaged.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/RijndaelManaged.py' (494)
+2020-04-13 22:42:46: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/securi.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/securi.py' (3.059)
+2020-04-13 22:42:50: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/tv5.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/tv5.py' (7.155)
+2020-04-13 22:43:00: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/unCaptcha.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/unCaptcha.py' (15.259)
+2020-04-13 22:43:04: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/vipracing.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/vipracing.py' (19.088)
+2020-04-13 22:43:07: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/wattv.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/wattv.py' (477)
+2020-04-13 22:43:11: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/__init__.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/__init__.py' (927)
+2020-04-13 22:43:16: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/__pycache__/six.cpython-36.pyc' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/__pycache__/six.cpython-36.pyc' (24.466)
+2020-04-13 22:43:21: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_abnf.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_abnf.py' (12.382)
+2020-04-13 22:43:24: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_app.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_app.py' (10.861)
+2020-04-13 22:43:28: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_core.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_core.py' (16.444)
+2020-04-13 22:43:32: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_exceptions.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_exceptions.py' (2.126)
+2020-04-13 22:43:35: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_handshake.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_handshake.py' (4.830)
+2020-04-13 22:43:41: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_http.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_http.py' (7.253)
+2020-04-13 22:43:46: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_logging.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_logging.py' (1.865)
+2020-04-13 22:43:50: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_socket.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_socket.py' (3.603)
+2020-04-13 22:43:57: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_ssl_compat.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_ssl_compat.py' (1.551)
+2020-04-13 22:44:01: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_url.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_url.py' (3.667)
+2020-04-13 22:44:05: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/_utils.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/_utils.py' (3.613)
+2020-04-13 22:44:18: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/cacert.pem' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/cacert.pem' (304.893)
+2020-04-13 22:44:27: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/six.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/six.py' (30.098)
+2020-04-13 22:44:33: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/tests/__init__.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/tests/__init__.py' (0)
+2020-04-13 22:44:39: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/tests/data/header01.txt' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/tests/data/header01.txt' (157)
+2020-04-13 22:44:43: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/tests/data/header02.txt' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/tests/data/header02.txt' (155)
+2020-04-13 22:44:48: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/websocket/tests/test_websocket.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/websocket/tests/test_websocket.py' (26.212)
+2020-04-13 22:44:52: Copiar Novo 'C:/Users/adelv/AppData/Roaming/Kodi/addons/plugin.video.WEBPLAY/youtubedl.py' -> 'gdrive://www.googleapis.com/plugin.video.WEBPLAY/youtubedl.py' (1.858)
+2020-04-13 22:44:58: ===== Sincronia Completada. Tempo: 00:20:33, Velocidade: 7.83 KB/s =====, Itens Sincronizados OK: 69, Erros: 0
+2020-04-13 22:45:13: 
