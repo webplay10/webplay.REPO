@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="webplay.REPO" name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY REPO[/COLOR][/B]" version="1.0.1" provider-name="[COLOR white] by [/COLOR] [COLOR red][B]ADELVAN[/B][/COLOR]">
     <extension point="xbmc.addon.repository" name="webPlay.REPO">
-	
-	    <info compressed="false">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/webplay10/webplay.REPO/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/</datadir>
+	   <dir>
+            <info compressed="false">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/</datadir>
+        </dir
 		
     </extension>
     <extension point="xbmc.addon.metadata">
