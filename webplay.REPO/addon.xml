@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="webplay.REPO" name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY REPO[/COLOR][/B]" version="1.0.1" provider-name="[COLOR white] by [/COLOR] [COLOR red][B]ADELVAN[/B][/COLOR]">
     <extension point="xbmc.addon.repository" name="webPlay.REPO">
-	   <dir>
+        <dir>
             <info compressed="false">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/</datadir>
-        </dir
-		
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR white]WEB[/COLOR][B][COLOR red]PLAY[/COLOR][/B]</summary>
@@ -18,7 +17,7 @@
            <website></website>
         <email>webplayads10@gmail.com</email>
 
-        <news>[COLOR red]l[/COLOR] Atualizacao v1.0.1 [COLOR red]l[/COLOR]
+        <news>[COLOR red]l[/COLOR] Atualizacao v2.0 [COLOR red]l[/COLOR]
 
 [COLOR red]l[/COLOR] Adicionado Menu de Suporte [COLOR red]l[/COLOR]
 [COLOR red]l[/COLOR] Em desenvovimento [COLOR red]l[/COLOR]
