@@ -1,131 +1,49 @@
 <addons>
-<addon id="plugin.video.WEBPLAY-MATRIX" name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY MATRIX[/COLOR][/B]" version="2.0+Matrix" provider-name="[COLOR white] by [/COLOR] [COLOR red][B]ADELVAN[/B][/COLOR]"> 
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>  
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-
-<extension point="xbmc.addon.repository" name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY REPO MATRIX[/COLOR][/B]">
-	<info compressed="false"></info>
-	<checksum></checksum>
-    <datadir zip="true"></datadir>
-</extension>
-
-<extension point="xbmc.addon.metadata">
-<summary lang="en">[COLOR red]Sobre:[/COLOR]</summary>
-        <description lang="en">[COLOR red]l[/COLOR] FILMES [COLOR red]l[/COLOR] SERIES [COLOR red]l[/COLOR] KIDS [COLOR red]l[/COLOR] ANIMES [COLOR red]l[/COLOR] LANCAMENTOS [COLOR red]l[/COLOR] HD [COLOR red]l[/COLOR] FHD [COLOR red]l[/COLOR]
+<addon id="plugin.video.WEBPLAY"
+       name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY[/COLOR][/B]"
+       version="1.0"
+       provider-name="[COLOR white] by [/COLOR] [COLOR red][B]ADELVAN[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR red]Sobre:[/COLOR]</summary> 
+	<description lang="en">[COLOR red]l[/COLOR] FILMES [COLOR red]l[/COLOR] SERIES [COLOR red]l[/COLOR] KIDS [COLOR red]l[/COLOR] ANIMES [COLOR red]l[/COLOR] LANCAMENTOS [COLOR red]l[/COLOR] HD [COLOR red]l[/COLOR] FHD [COLOR red]l[/COLOR]
 [COLOR red]l[/COLOR] O autor nao hospeda nem possui nenhum conteudo encontrado neste addon. O autor nao e responsavel pelo uso e pelo conteudo encontrado neste addon [COLOR red]l[/COLOR]
-
 [COLOR red]l[/COLOR][B][COLOR white]WEB[/COLOR][COLOR red]PLAY [/B] [/COLOR][COLOR red]l[/COLOR] - O MELHOR DO CINEMA NO SEU KODI - 100% FHD [COLOR red]l[/COLOR]</description>
-        <disclaimer lang="en">O autor nao e de forma alguma afiliado a Kodi, a Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.</disclaimer>
-        <website></website>
-        <email>webplayads10@gmail.com</email>
-        <news>[COLOR red]l[/COLOR] Atualizacao v2.0+Matrix [COLOR red]l[/COLOR]
-
+    <disclaimer lang="en">O autor nao e de forma alguma afiliado a Kodi, a Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.</disclaimer>
+	<website></website>
+    <email></email>
+	<news>[COLOR red]l[/COLOR] Atualizacao v1.0 [COLOR red]l[/COLOR]
 [COLOR red]l[/COLOR] Adicionado Menu de Suporte [COLOR red]l[/COLOR]
 [COLOR red]l[/COLOR] Em desenvovimento [COLOR red]l[/COLOR]
 [COLOR red]l[/COLOR] S? Conteudos em FHD [COLOR red]l[/COLOR]
-
 [B][COLOR red]l[/COLOR][COLOR white]WEB[/COLOR][COLOR red]PLAY[/COLOR][COLOR red]l[/COLOR][/B]</news>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/screenshots/1.jpg</screenshot>
-            <screenshot>resources/screenshots/2.jpg</screenshot>
-            <screenshot>resources/screenshots/3.jpg</screenshot>
-        </assets>
-    </extension>
-</addon>
-<addon id="plugin.video.WEBPLAY-MATRIX" name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY MATRIX[/COLOR][/B]" version="1.0.0" provider-name="[COLOR white] by [/COLOR] [COLOR red][B]ADELVAN[/B][/COLOR]"> 
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>  
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-
-<extension point="xbmc.addon.repository" name="[COLOR white]WEB[/COLOR][B][COLOR red]PLAY REPO MATRIX[/COLOR][/B]">
-	<info compressed="false"></info>
-	<checksum></checksum>
-    <datadir zip="true"></datadir>
-</extension>
-
-<extension point="xbmc.addon.metadata">
-<summary lang="en">[COLOR red]Sobre:[/COLOR]</summary>
-        <description lang="en">[COLOR red]l[/COLOR] FILMES [COLOR red]l[/COLOR] SERIES [COLOR red]l[/COLOR] KIDS [COLOR red]l[/COLOR] ANIMES [COLOR red]l[/COLOR] LANCAMENTOS [COLOR red]l[/COLOR] HD [COLOR red]l[/COLOR] FHD [COLOR red]l[/COLOR]
-[COLOR red]l[/COLOR] O autor nao hospeda nem possui nenhum conteudo encontrado neste addon. O autor nao e responsavel pelo uso e pelo conteudo encontrado neste addon [COLOR red]l[/COLOR]
-
-[COLOR red]l[/COLOR][B][COLOR white]WEB[/COLOR][COLOR red]PLAY [/B] [/COLOR][COLOR red]l[/COLOR] - O MELHOR DO CINEMA NO SEU KODI - 100% FHD [COLOR red]l[/COLOR]</description>
-        <disclaimer lang="en">O autor nao e de forma alguma afiliado a Kodi, a Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.</disclaimer>
-        <website></website>
-        <email>webplayads10@gmail.com</email>
-        <news>[COLOR red]l[/COLOR] Atualizacao v1.0 [COLOR red]l[/COLOR]
-
-[COLOR red]l[/COLOR] Adicionado Menu de Suporte [COLOR red]l[/COLOR]
-[COLOR red]l[/COLOR] Em desenvovimento [COLOR red]l[/COLOR]
-[COLOR red]l[/COLOR] S? Conteudos em FHD [COLOR red]l[/COLOR]
-
-[B][COLOR red]l[/COLOR][COLOR white]WEB[/COLOR][COLOR red]PLAY[/COLOR][COLOR red]l[/COLOR][/B]</news>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/screenshots/1.jpg</screenshot>
-            <screenshot>resources/screenshots/2.jpg</screenshot>
-            <screenshot>resources/screenshots/3.jpg</screenshot>
-        </assets>
-    </extension>
-</addon>
-<addon id="plugin.video.PRIMEVIDEO-MATRIX" name="[COLOR blue]prime[/COLOR][B][COLOR white]video[/COLOR][/B]" version="2.0+Matrix" provider-name="[COLOR white] by [/COLOR] [COLOR blue][B]ADELVAN[/B][/COLOR]"> 
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>  
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-
-<extension point="xbmc.addon.repository" name="[COLOR blue]prime[/COLOR][B][COLOR white]video REPO MATRIX[/COLOR][/B]">
-	<info compressed="false"></info>
-	<checksum></checksum>
-    <datadir zip="true"></datadir>
-</extension>
-
-<extension point="xbmc.addon.metadata">
-<summary lang="en">[COLOR blue]Sobre:[/COLOR]</summary>
-        <description lang="en">[COLOR blue]l[/COLOR] FILMES [COLOR blue]l[/COLOR] SERIES [COLOR blue]l[/COLOR] KIDS [COLOR blue]l[/COLOR] ANIMES [COLOR blue]l[/COLOR] LANCAMENTOS [COLOR blue]l[/COLOR] HD [COLOR blue]l[/COLOR] FHD [COLOR blue]l[/COLOR]
-[COLOR blue]l[/COLOR] O autor nao hospeda nem possui nenhum conteudo encontrado neste addon. O autor nao e responsavel pelo uso e pelo conteudo encontrado neste addon [COLOR blue]l[/COLOR]
-
-[COLOR blue]l[/COLOR][B][COLOR white]prime[/COLOR][COLOR blue]video[/B] [/COLOR][COLOR blue]l[/COLOR] - O MELHOR DO CINEMA NO SEU KODI - 100% FHD [COLOR blue]l[/COLOR]</description>
-        <disclaimer lang="en">O autor nao e de forma alguma afiliado a Kodi, a Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.</disclaimer>
-        <website></website>
-        <email>webplayads10@gmail.com</email>
-        <news>[COLOR blue]l[/COLOR] Atualizacao v2.0+Matrix [COLOR blue]l[/COLOR]
-
-[COLOR blue]l[/COLOR] Adicionado Menu de Suporte [COLOR blue]l[/COLOR]
-[COLOR blue]l[/COLOR] Em desenvovimento [COLOR blue]l[/COLOR]
-[COLOR blue]l[/COLOR] S? Conteudos em FHD [COLOR blue]l[/COLOR]
-
-[B][COLOR blue]l[/COLOR][COLOR blue]prime[/COLOR][B][COLOR white]video[/COLOR][/B][B][COLOR blue]l[/COLOR][/B]</news>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/screenshots/1.jpg</screenshot>
-            <screenshot>resources/screenshots/2.jpg</screenshot>
-            <screenshot>resources/screenshots/3.jpg</screenshot>
-        </assets>
-    </extension>
+    <platform>all</platform>
+   <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
 </addon>
 </addons>
