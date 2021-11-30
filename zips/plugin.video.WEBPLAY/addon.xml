@@ -24,6 +24,13 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+  <extension point="xbmc.addon.repository" name="webPlay.REPO">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/webplay10/webplay.REPO/master/zips/</datadir>
+        </dir>
+    </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">[COLOR red]Sobre:[/COLOR]</summary>
    
